@@ -6,13 +6,12 @@ import androidx.activity.compose.setContent
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Surface
-import androidx.compose.material3.Text
-import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
-import androidx.compose.ui.tooling.preview.Preview
 import com.example.week4.ui.theme.Week4Theme
 import com.example.week4.ui.view.PreviewSoal1
 import com.example.week4.ui.view.PreviewSoal2
+import com.example.week4.ui.view.PreviewSoal3
+import com.example.week4.ui.view.PreviewSoal4
 
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -24,7 +23,7 @@ class MainActivity : ComponentActivity() {
                     modifier = Modifier.fillMaxSize(),
                     color = MaterialTheme.colorScheme.background
                 ) {
-                    PreviewSoal2()
+                    PreviewSoal4()
                 }
             }
         }

@@ -10,7 +10,6 @@ import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.aspectRatio
 import androidx.compose.foundation.layout.fillMaxWidth
-import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.lazy.grid.GridCells
 import androidx.compose.foundation.lazy.grid.GridItemSpan
@@ -48,7 +47,7 @@ fun ViewSoal4(photos: List<Explore>) {
 
     Scaffold(
         content = {
-            LazyVerticalGrid(columns = GridCells.Fixed(3), modifier = Modifier.height(735.dp)) {
+            LazyVerticalGrid(columns = GridCells.Fixed(3), modifier = Modifier.padding(bottom = 48.dp)) {
                 item(span = { GridItemSpan(3) }) {
                     TopNavBar()
                 }
